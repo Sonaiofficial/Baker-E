@@ -8,6 +8,7 @@ import Bakers from './components/Bakers';
 
 function App() {
   return (
+    
       <Router>
         <Routes>
           <Route path='/' element={<Home />} />
@@ -16,6 +17,7 @@ function App() {
           <Route path='/bakers' element={<Bakers />} />
         </Routes>
       </Router>
+      
   );
 }
 
