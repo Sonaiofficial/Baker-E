@@ -6,6 +6,7 @@ import StorySection from "./home/StorySection";
 import AlwaysFresh from "./home/AlwaysFresh";
 import MenuSection from "./home/MenuSection";
 import TastySection from "./home/TastySection";
+import BakersDelightSection from "./home/BakersDelightSection";
 import Footer from "./home/Footer";
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <AlwaysFresh />
             <MenuSection />
             <TastySection />
+            <BakersDelightSection />
             <Footer />  
             <Outlet />         
         </>
